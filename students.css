@@ -1,0 +1,30 @@
+.students{
+    width: 80%;
+    margin: 20px auto;
+    border: 1px solid #ccc;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.students label{
+    display: block;
+    margin: 10px auto;
+    font-weight: bold;
+    text-align: center;
+}
+
+.students input{
+    width: 80%;
+    height: 30px;
+    padding: 5px;
+    direction: rtl;
+    border-radius: 5px;
+}
+input[type=number],input[type=email]{
+    direction: ltr;
+}
+
+@media(min-width:500px){
+    .students{
+        width: 450px;
+    }
+}
